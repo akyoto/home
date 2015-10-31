@@ -7,3 +7,5 @@ alias nt='npm test'
 alias n:='npm search'
 alias sp='sugoi push'
 alias b='ab -kc 10 -t 30'
+goProject() { cd "$HOME/projects/$@"; }
+alias p="goProject"
