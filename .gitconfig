@@ -3,3 +3,5 @@
 	name = Eduard Urbach
 [push]
 	default = simple
+[core]
+	editor = vim
