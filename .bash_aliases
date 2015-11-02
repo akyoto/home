@@ -28,3 +28,7 @@ alias p="goProject"
 # d DIRNAME
 mkdirAndEnter() { mkdir $@; cd $@; }
 alias d="mkdirAndEnter"
+
+# editor
+export EDITOR=vim
+alias e=$EDITOR
