@@ -12,6 +12,7 @@ alias n:='npm search'
 
 # ApacheBench
 alias b='ab -kc 10 -t 30'
+alias b4k='b http://localhost:4000/'
 
 # git
 alias gs='git status'
@@ -20,6 +21,9 @@ alias gl='git log'
 alias gp='git push'
 alias gcam='git commit -a -m'
 alias sp='sugoi push'
+
+# sugoi
+alias s='sugoi'
 
 # p PROJECTNAME
 goProject() { cd "$HOME/projects/$@"; }
@@ -32,3 +36,18 @@ alias d="mkdirAndEnter"
 # editor
 export EDITOR=vim
 alias e=$EDITOR
+
+# aero
+aeroFromGit() {
+	cd node_modules
+	rm -rf ./aero
+	ln -s $HOME/projects/aero aero
+	cd ..
+}
+alias afg="aeroFromGit"
+
+traceFunc() {
+	LOG=$(node --trace-opt .)
+	echo "$LOG" | grep $@
+}
+alias ntr="traceFunc"
