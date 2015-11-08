@@ -18,8 +18,10 @@ alias b4k='b http://localhost:4000/'
 alias gs='git status'
 alias gd='git diff'
 alias gl='git log'
-alias gp='git push'
-alias gcam='git commit -a -m'
+alias gp='git pull'
+alias gu='git push'
+alias gc='git clone'
+alias gm='git commit'
 alias sp='sugoi push'
 
 # sugoi
