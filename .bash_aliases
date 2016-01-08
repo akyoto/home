@@ -27,6 +27,10 @@ alias sp='sugoi push'
 # sugoi
 alias s='sugoi'
 
+# aerospike
+alias dbup='sudo service aerospike start'
+alias dbdown='sudo service aerospike stop'
+
 # p PROJECTNAME
 goProject() { cd "$HOME/projects/$@"; }
 alias p="goProject"
