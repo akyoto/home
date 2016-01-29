@@ -12,6 +12,7 @@ wmctrl -s 0
 google-chrome &
 nautilus &
 slack &
+hexchat &
 sleep 2.7
 wmctrl -s 3
 gnome-terminal --full-screen &
@@ -25,5 +26,6 @@ sleep 0.4
 wmctrl -s 0
 wmctrl -r 'Google Chrome' -t 0
 wmctrl -r 'Home' -t 6
+wmctrl -r 'HexChat' -t 8
 wmctrl -r 'Slack' -t 8
 wmctrl -r 'Slack' -b add,maximized_vert,maximized_horz
