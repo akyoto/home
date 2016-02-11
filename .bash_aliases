@@ -2,6 +2,7 @@
 
 # node
 alias n='node'
+alias ns='node --use_strict'
 
 # npm
 alias nr='npm run'

@@ -29,3 +29,6 @@ wmctrl -r 'Home' -t 6
 wmctrl -r 'HexChat' -t 8
 wmctrl -r 'Slack' -t 8
 wmctrl -r 'Slack' -b add,maximized_vert,maximized_horz
+
+# Update atom packages
+apm update --confirm=false &
