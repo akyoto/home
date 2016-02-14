@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
 # node
 alias n='node'
 alias ns='node --use_strict'
@@ -43,15 +49,6 @@ alias d="mkdirAndEnter"
 # editor
 export EDITOR=vim
 alias e=$EDITOR
-
-# aero
-aeroFromGit() {
-	cd node_modules
-	rm -rf ./aero
-	ln -s $HOME/projects/aero aero
-	cd ..
-}
-alias afg="aeroFromGit"
 
 traceFunc() {
 	LOG=$(node --trace-opt .)
