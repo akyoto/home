@@ -30,5 +30,14 @@ wmctrl -r 'HexChat' -t 8
 wmctrl -r 'Slack' -t 8
 wmctrl -r 'Slack' -b add,maximized_vert,maximized_horz
 
+# Install latest node
+nvm install node
+
+# Install latest npm
+npm i npm@latest -g &
+
+# Install latest atom
+. ~/.update-atom
+
 # Update atom packages
 apm update --confirm=false &
