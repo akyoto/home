@@ -20,6 +20,7 @@ alias n:='npm search'
 # ApacheBench
 alias b='ab -kc 10 -t 30'
 alias b4k='b http://localhost:4000/'
+alias b5k='b http://localhost:5000/'
 
 # git
 alias gs='git status'
