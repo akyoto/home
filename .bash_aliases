@@ -30,10 +30,11 @@ alias gp='git pull'
 alias gu='git push'
 alias gc='git clone'
 alias gm='git commit'
-alias sp='sugoi push'
+alias loc='git ls-files | grep "\.js$" | xargs cloc'
 
 # sugoi
 alias s='sugoi'
+alias sp='sugoi push'
 
 # aerospike
 alias dbup='sudo service aerospike start'
