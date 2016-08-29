@@ -23,3 +23,6 @@ fi
 
 # Standard search behaviour in Files app
 gsettings set org.gnome.nautilus.preferences enable-interactive-search true
+
+# Sort folders first
+gsettings set org.gnome.nautilus.preferences sort-directories-first true
