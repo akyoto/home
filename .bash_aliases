@@ -50,7 +50,8 @@ alias d="mkdirAndEnter"
 
 # editor
 export EDITOR=vim
-alias e=$EDITOR
+openEditor() { test -w $@ && vim $@ || sudo vim $@; }
+alias e="openEditor"
 
 traceFunc() {
 	LOG=$(node --trace-opt .)
