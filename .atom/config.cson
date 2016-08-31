@@ -1,0 +1,32 @@
+"*":
+  core:
+    disabledPackages: [
+      "line-ending-selector"
+      "wrap-guide"
+    ]
+    projectHome: "/home/eduard/projects"
+  editor:
+    invisibles: {}
+    showIndentGuide: false
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "928f383f-8d64-2871-6d74-caf824ac01bf"
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/home/eduard/.nvm/versions/node/v6.5.0"
+    useGlobalEslint: true
+  "project-plus":
+    notifications: false
+  "remote-sync": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+    removeTrailingWhitespace: true
+".jade.source":
+  editor:
+    tabLength: 4
+  whitespace:
+    removeTrailingWhitespace: false
