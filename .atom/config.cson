@@ -1,4 +1,7 @@
 "*":
+  "activate-power-mode":
+    screenShake:
+      enabled: false
   core:
     disabledPackages: [
       "line-ending-selector"
