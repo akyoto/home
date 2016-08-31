@@ -10,7 +10,6 @@
     projectHome: "/home/eduard/projects"
   editor:
     invisibles: {}
-    showIndentGuide: false
     tabLength: 4
     tabType: "hard"
   "exception-reporting":
@@ -28,7 +27,7 @@
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
     removeTrailingWhitespace: true
-".jade.source":
+".source.pug":
   editor:
     tabLength: 4
   whitespace:
