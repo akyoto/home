@@ -30,6 +30,8 @@ alias gp='git pull'
 alias gu='git push'
 alias gc='git clone'
 alias gm='git commit'
+alias go='git open'
+alias gr='git recent'
 alias loc='git ls-files | grep "\.js$" | xargs cloc'
 
 # sugoi

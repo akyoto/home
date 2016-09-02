@@ -18,7 +18,7 @@ atom &
 sleep 2.7
 
 # Music
-google-chrome --new-window play.google.com/music youtube.com soundcloud.com &
+#google-chrome --new-window play.google.com/music youtube.com soundcloud.com &
 
 # Move terminals
 wmctrl -r 'Terminal 1' -t 3
@@ -62,7 +62,7 @@ wmctrl -r 'Google Chrome' -t 0
 wmctrl -r 'Atom' -t 1
 wmctrl -r '/home/eduard/projects/' -t 1
 wmctrl -r 'Home' -t 6
-wmctrl -r 'Google Play Music' -t 7
+#wmctrl -r 'Google Play Music' -t 7
 #wmctrl -r 'HexChat' -t 8
 #wmctrl -r 'Slack' -t 8
 #wmctrl -r 'Slack' -b add,maximized_vert,maximized_horz
