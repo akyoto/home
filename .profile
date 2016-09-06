@@ -21,8 +21,11 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-# Standard search behaviour in Files app
-gsettings set org.gnome.nautilus.preferences enable-interactive-search true
+# GNOME settings
+if [ -x "$(command -v gsettings)" ]; then
+	# Standard search behaviour in Files app
+	gsettings set org.gnome.nautilus.preferences enable-interactive-search true
 
-# Sort folders first
-gsettings set org.gnome.nautilus.preferences sort-directories-first true
+	# Sort folders first
+	gsettings set org.gnome.nautilus.preferences sort-directories-first true
+fi
