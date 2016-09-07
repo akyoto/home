@@ -1,14 +1,7 @@
 #!/bin/sh
 
-# OS update
-#sudo apt-get update
-#sudo apt-get upgrade
-
-# Update git projects
-for dir in ~/projects/*; do (echo "Updating $dir" && cd "$dir" && git pull &); done
-
-# Update atom packages
-apm update --confirm=false &
+# Update all sorts of things
+./.update
 
 # Start apps
 wmctrl -s 0

@@ -6,6 +6,7 @@
     disabledPackages: [
       "line-ending-selector"
       "wrap-guide"
+      "atom-jade"
     ]
     projectHome: "/home/eduard/projects"
   editor:
@@ -14,6 +15,8 @@
     tabType: "hard"
   "exception-reporting":
     userId: "928f383f-8d64-2871-6d74-caf824ac01bf"
+  linter:
+    errorPanelHeight: 25
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     globalNodePath: "/home/eduard/.nvm/versions/node/v6.5.0"
