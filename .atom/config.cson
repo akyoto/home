@@ -27,7 +27,7 @@
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
     removeTrailingWhitespace: true
-".source.pug":
+".pug.source":
   editor:
     tabLength: 4
   whitespace:
