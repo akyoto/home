@@ -1,5 +1,9 @@
 "*":
   "activate-power-mode":
+    comboMode:
+      enabled: false
+    playAudio:
+      enabled: false
     screenShake:
       enabled: false
   core:
@@ -21,15 +25,26 @@
     disableWhenNoEslintrcFileInPath: true
     globalNodePath: "/home/eduard/.nvm/versions/node/v6.5.0"
     useGlobalEslint: true
+  pigments:
+    notifyReloads: false
   "project-plus":
     notifications: false
   "remote-sync": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   welcome:
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
     removeTrailingWhitespace: true
+".elm.source":
+  editor:
+    tabLength: 4
 ".pug.source":
   editor:
     tabLength: 4
