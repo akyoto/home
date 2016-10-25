@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontFamily": "'Ubuntu Mono'",
+	"editor.fontSize": 16,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "editor.scrollBeyondLastLine": false,
+	"editor.wrappingColumn": -1,
+	"gitProjectManager.baseProjectsFolders": [
+		"/home/eduard/projects"
+    ],
+	"gitProjectManager.ignoredFolders": ["node_modules"],
+	"gitProjectManager.maxDepthRecursion": 0,
+	"gitProjectManager.checkRemoteOrigin": false,
+	"gitProjectManager.openInNewWindow": false,
+	"files.exclude": {
+		"node_modules": true,
+	},
+	"files.associations": {"*.pixy": "jade"}
+}

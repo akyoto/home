@@ -21,6 +21,12 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+# Go
+if [ -d "$HOME/workspace" ] ; then
+	export GOPATH=$HOME/workspace
+	export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin/
+fi
+
 # GNOME settings
 if [ -x "$(command -v gsettings)" ]; then
 	# Standard search behaviour in Files app
