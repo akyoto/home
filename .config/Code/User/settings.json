@@ -13,8 +13,11 @@
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
+	"git.allowLargeRepositories": false,
 	"files.exclude": {
-		"node_modules": true,
+		"node_modules": true
 	},
-	"files.associations": {"*.pixy": "jade"}
+	"files.associations": {"*.pixy": "jade"},
+	"typescript.check.tscVersion": false,
+	"extensions.autoUpdate": true
 }

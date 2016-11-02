@@ -6,6 +6,8 @@
       enabled: false
     screenShake:
       enabled: false
+  "atom-typescript":
+    preferredQuoteCharacter: "'"
   core:
     disabledPackages: [
       "line-ending-selector"
@@ -15,6 +17,7 @@
     ]
     packagesWithKeymapsDisabled: []
     projectHome: "/home/eduard/projects"
+    telemetryConsent: "limited"
   editor:
     invisibles: {}
     tabLength: 4
@@ -39,6 +42,8 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   whitespace:
@@ -53,3 +58,9 @@
     tabLength: 4
   whitespace:
     removeTrailingWhitespace: false
+".source.ts":
+  editor:
+    tabLength: 4
+".source.tsx":
+  editor:
+    tabLength: 4

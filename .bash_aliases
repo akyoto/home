@@ -6,6 +6,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+# Go
+alias g='go'
+alias gb='go build'
+alias gg='go get'
+alias gt='go test'
+
 # node
 alias n='node'
 alias ns='node --use_strict'
@@ -42,21 +48,14 @@ alias dbdown='sudo service aerospike stop'
 # p PROJECTNAME
 goProject() { cd "$HOME/projects/$@"; }
 goWorkspace() { cd "$HOME/workspace/$@"; }
-alias p="goProject"
-alias w="goWorkspace"
+alias p=goProject
+alias w=goWorkspace
 
 # d DIRNAME
 mkdirAndEnter() { mkdir $@; cd $@; }
-alias d="mkdirAndEnter"
+alias d=mkdirAndEnter
 
 # editor
 export EDITOR=vim
 openEditor() { test -w $@ && vim $@ || sudo vim $@; }
-alias e="openEditor"
-
-# node
-traceFunc() {
-	LOG=$(node --trace-opt .)
-	echo "$LOG" | grep $@
-}
-alias ntr="traceFunc"
+alias e=openEditor

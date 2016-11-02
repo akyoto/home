@@ -1,11 +1,18 @@
-#!/bin/sh
+#!/bin/bash
 
 # OS update
 sudo apt-get update
 sudo apt-get -y upgrade
 
 # Update git projects
-for dir in ~/projects/*; do (echo "Updating $dir" && cd "$dir" && git pull &); done
+for dir in ~/projects/*; do
+	echo "Updating $dir"
+	cd "$dir"
+	git pull &
+	if [ -f "$dir/package.json" ]; then
+		npm link
+	fi
+done
 
 # Update atom packages
 apm update --confirm=false &
