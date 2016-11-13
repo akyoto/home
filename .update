@@ -10,7 +10,7 @@ for dir in ~/projects/*; do
 	cd "$dir"
 	git pull &
 	if [ -f "$dir/package.json" ]; then
-		npm link
+		yarn link
 	fi
 done
 

@@ -35,6 +35,7 @@
     notifyReloads: false
   "project-plus":
     notifications: false
+    projectHome: " /home/eduard/projects"
   "remote-sync": {}
   "split-diff":
     diffWords: true

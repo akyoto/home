@@ -7,7 +7,7 @@
     "editor.scrollBeyondLastLine": false,
 	"editor.wrappingColumn": -1,
 	"gitProjectManager.baseProjectsFolders": [
-		"/home/eduard/projects"
+		"/home/eduard/workspace"
     ],
 	"gitProjectManager.ignoredFolders": ["node_modules"],
 	"gitProjectManager.maxDepthRecursion": 0,
@@ -15,9 +15,13 @@
 	"gitProjectManager.openInNewWindow": false,
 	"git.allowLargeRepositories": false,
 	"files.exclude": {
-		"node_modules": true
+		"node_modules": true,
+		".editorconfig": true,
+		".gitignore": true
 	},
 	"files.associations": {"*.pixy": "jade"},
 	"typescript.check.tscVersion": false,
-	"extensions.autoUpdate": true
+	"extensions.autoUpdate": true,
+	"languageStylus.useSeparator": false,
+	"git.confirmSync": false
 }

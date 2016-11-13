@@ -46,7 +46,7 @@ alias dbup='sudo service aerospike start'
 alias dbdown='sudo service aerospike stop'
 
 # p PROJECTNAME
-goProject() { cd "$HOME/projects/$@"; }
+goProject() { cd $(readlink -f "$HOME/projects/$@"); }
 goWorkspace() { cd "$HOME/workspace/$@"; }
 alias p=goProject
 alias w=goWorkspace
