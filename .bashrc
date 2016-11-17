@@ -119,6 +119,10 @@ fi
 # Color prompt
 . ~/.bash_prompt
 
+# Let's Encrypt needs these to be set
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
 # nvm
 export NVM_DIR="/home/eduard/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
