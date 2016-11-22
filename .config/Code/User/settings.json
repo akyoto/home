@@ -6,16 +6,20 @@
     "editor.insertSpaces": false,
     "editor.scrollBeyondLastLine": false,
 	"editor.wrappingColumn": -1,
-	"gitProjectManager.baseProjectsFolders": [
-		"/home/eduard/workspace"
-    ],
-	"gitProjectManager.ignoredFolders": ["node_modules"],
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
 	"git.allowLargeRepositories": false,
+	"gitProjectManager.baseProjectsFolders": [
+		"/home/eduard/workspace/src/github.com"
+    ],
+	"gitProjectManager.ignoredFolders": [
+		"node_modules",
+		"vendor"
+	],
 	"files.exclude": {
 		"node_modules": true,
+		"vendor": true,
 		".editorconfig": true,
 		".gitignore": true
 	},
