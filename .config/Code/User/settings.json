@@ -23,7 +23,10 @@
 		".editorconfig": true,
 		".gitignore": true
 	},
-	"files.associations": {"*.pixy": "jade"},
+	"files.associations": {
+		"*.pixy": "jade",
+		"*.scarlet": "stylus"
+	},
 	"typescript.check.tscVersion": false,
 	"extensions.autoUpdate": true,
 	"languageStylus.useSeparator": false,
