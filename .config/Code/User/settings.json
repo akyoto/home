@@ -5,7 +5,7 @@
     "editor.detectIndentation": false,
     "editor.insertSpaces": false,
     "editor.scrollBeyondLastLine": false,
-	"editor.wrappingColumn": -1,
+	"editor.wordWrap": "off",
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
