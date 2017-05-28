@@ -30,5 +30,6 @@
 	"typescript.check.tscVersion": false,
 	"extensions.autoUpdate": true,
 	"languageStylus.useSeparator": false,
-	"git.confirmSync": false
+	"git.confirmSync": false,
+	"workbench.iconTheme": "material-icon-theme"
 }
