@@ -48,8 +48,10 @@ alias dbdown='sudo service aerospike stop'
 
 # p PROJECTNAME
 goProject() { cd $(readlink -f "$HOME/projects/$@"); }
+goApp() { cd $(readlink -f "$HOME/apps/$@"); }
 goWorkspace() { cd "$HOME/workspace/$@"; }
 alias p=goProject
+alias a=goApp
 alias w=goWorkspace
 
 # d DIRNAME
