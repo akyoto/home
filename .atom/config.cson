@@ -9,48 +9,27 @@
   "atom-typescript":
     preferredQuoteCharacter: "'"
   core:
+    customFileTypes:
+      "source.pug": [
+        "pixy"
+      ]
+      "source.stylus": [
+        "scarlet"
+      ]
     disabledPackages: [
       "line-ending-selector"
       "wrap-guide"
       "atom-jade"
-      "go-plus"
     ]
     packagesWithKeymapsDisabled: []
     projectHome: "/home/eduard/projects"
     telemetryConsent: "limited"
   editor:
-    invisibles: {}
     tabLength: 4
-    tabType: "hard"
   "exception-reporting":
-    userId: "928f383f-8d64-2871-6d74-caf824ac01bf"
-  "go-debug": {}
-  linter:
-    errorPanelHeight: 25
-  "linter-eslint":
-    disableWhenNoEslintrcFileInPath: true
-    globalNodePath: "/home/eduard/.nvm/versions/node/v6.5.0"
-    useGlobalEslint: true
-  pigments:
-    notifyReloads: false
-  "project-plus":
-    notifications: false
-    projectHome: " /home/eduard/projects"
-  "remote-sync": {}
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    syncHorizontalScroll: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+    userId: "ee3b20db-701f-43a3-ab3d-ea114b5b9235"
   welcome:
     showOnStartup: false
-  whitespace:
-    ensureSingleTrailingNewline: false
-    ignoreWhitespaceOnCurrentLine: false
-    removeTrailingWhitespace: true
 ".elm.source":
   editor:
     tabLength: 4
@@ -65,3 +44,37 @@
 ".source.tsx":
   editor:
     tabLength: 4
+customFileTypes:
+  "source.pug": [
+    "pixy"
+  ]
+  "source.stylus": [
+    "scarlet"
+  ]
+editor:
+  tabLength: 4
+  tabType: "hard"
+"exception-reporting":
+  userId: "928f383f-8d64-2871-6d74-caf824ac01bf"
+"linter-eslint":
+  disableWhenNoEslintrcFileInPath: true
+  globalNodePath: "/home/eduard/.nvm/versions/node/v6.5.0"
+  useGlobalEslint: true
+pigments:
+  notifyReloads: false
+"project-plus":
+  projectHome: " /home/eduard/projects"
+"split-diff":
+  diffWords: true
+  ignoreWhitespace: true
+  leftEditorColor: "red"
+  rightEditorColor: "green"
+  syncHorizontalScroll: true
+"tree-view":
+  hideVcsIgnoredFiles: true
+welcome:
+  showOnStartup: false
+whitespace:
+  ensureSingleTrailingNewline: false
+  ignoreWhitespaceOnCurrentLine: false
+  removeTrailingWhitespace: true
