@@ -43,8 +43,7 @@ alias s='sugoi'
 alias sp='sugoi push'
 
 # aerospike
-alias dbup='sudo service aerospike start'
-alias dbdown='sudo service aerospike stop'
+alias db='sudo service aerospike'
 
 # p PROJECTNAME
 goProject() { cd $(readlink -f "$HOME/projects/$@"); }
