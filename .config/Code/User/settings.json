@@ -2,9 +2,9 @@
 {
 	"editor.fontFamily": "'Ubuntu Mono'",
 	"editor.fontSize": 16,
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": false,
-    "editor.scrollBeyondLastLine": false,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.scrollBeyondLastLine": false,
 	"editor.wordWrap": "off",
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
@@ -12,7 +12,7 @@
 	"git.allowLargeRepositories": false,
 	"gitProjectManager.baseProjectsFolders": [
 		"/home/eduard/workspace/src/github.com"
-    ],
+	],
 	"gitProjectManager.ignoredFolders": [
 		"node_modules",
 		"vendor"
