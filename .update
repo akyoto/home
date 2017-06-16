@@ -4,15 +4,15 @@
 sudo apt-get update
 sudo apt-get -y upgrade
 
-# Update git projects
-for dir in ~/projects/*; do
-	echo "Updating $dir"
-	cd "$dir"
-	git pull &
-	if [ -f "$dir/package.json" ]; then
-		yarn link
-	fi
-done
+# # Update git projects
+# for dir in ~/projects/*; do
+# 	echo "Updating $dir"
+# 	cd "$dir"
+# 	git pull &
+# 	if [ -f "$dir/package.json" ]; then
+# 		yarn link
+# 	fi
+# done
 
-# Update atom packages
-apm update --confirm=false &
+# # Update atom packages
+# apm update --confirm=false &
