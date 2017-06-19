@@ -21,7 +21,10 @@
 		"node_modules": true,
 		"vendor": true,
 		".editorconfig": true,
-		".gitignore": true
+		".gitignore": true,
+		"**/*.js": {
+			"when": "$(basename).ts"
+		}
 	},
 	"files.associations": {
 		"*.pixy": "jade",
