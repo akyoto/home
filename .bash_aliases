@@ -12,6 +12,7 @@ alias g='go'
 alias gb='go build'
 alias gg='go get'
 alias gt='go test'
+alias gi='go install'
 alias ggu='go get -u'
 
 # node
