@@ -35,5 +35,6 @@
 	"languageStylus.useSeparator": false,
 	"git.confirmSync": false,
 	"workbench.iconTheme": "material-icon-theme",
-	"git.enableSmartCommit": true
+	"git.enableSmartCommit": true,
+	"window.zoomLevel": 0
 }
