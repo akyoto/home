@@ -9,7 +9,6 @@
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
-	"git.allowLargeRepositories": false,
 	"gitProjectManager.baseProjectsFolders": [
 		"/home/eduard/workspace/src/github.com"
 	],
@@ -30,11 +29,10 @@
 		"*.pixy": "jade",
 		"*.scarlet": "stylus"
 	},
-	"typescript.check.tscVersion": false,
 	"extensions.autoUpdate": true,
 	"languageStylus.useSeparator": false,
 	"git.confirmSync": false,
-	"workbench.iconTheme": "material-icon-theme",
 	"git.enableSmartCommit": true,
-	"window.zoomLevel": 0
+	"window.zoomLevel": 0,
+	"workbench.iconTheme": "vscode-icons"
 }

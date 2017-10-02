@@ -4,6 +4,9 @@
       enabled: false
     playAudio:
       enabled: false
+    plugins:
+      playAudio: true
+      screenShake: true
     screenShake:
       enabled: false
   "atom-typescript":
@@ -28,6 +31,9 @@
     tabLength: 4
   "exception-reporting":
     userId: "ee3b20db-701f-43a3-ab3d-ea114b5b9235"
+  "go-plus":
+    panel:
+      currentHeight: "5.852674066599395vh"
   welcome:
     showOnStartup: false
 ".elm.source":
