@@ -34,5 +34,6 @@
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"window.zoomLevel": 0,
-	"workbench.iconTheme": "vscode-icons"
+	"workbench.iconTheme": "vscode-icons",
+	"files.autoSave": "off"
 }

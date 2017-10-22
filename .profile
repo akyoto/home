@@ -28,10 +28,10 @@ if [ -d "$HOME/workspace" ] ; then
 fi
 
 # GNOME settings
-if [ -x "$(command -v gsettings)" ]; then
-	# Standard search behaviour in Files app
-	gsettings set org.gnome.nautilus.preferences enable-interactive-search true
-
-	# Sort folders first
-	gsettings set org.gnome.nautilus.preferences sort-directories-first true
-fi
+#if [ -x "$(command -v gsettings)" ]; then
+#	# Standard search behaviour in Files app
+#	gsettings set org.gnome.nautilus.preferences enable-interactive-search true
+#
+#	# Sort folders first
+#	gsettings set org.gnome.nautilus.preferences sort-directories-first true
+#fi
