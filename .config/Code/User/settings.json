@@ -34,6 +34,9 @@
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"window.zoomLevel": 0,
-	"workbench.iconTheme": "vscode-icons",
-	"files.autoSave": "off"
+	"workbench.iconTheme": "material-icon-theme",
+	"files.autoSave": "off",
+	"markdownlint.config": {
+		"MD010": false
+	}
 }
