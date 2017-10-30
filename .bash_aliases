@@ -14,6 +14,7 @@ alias gg='go get'
 alias gt='go test'
 alias gi='go install'
 alias ggu='go get -u'
+alias bench='go test -run=^$ -bench'
 
 # node
 alias n='node'
