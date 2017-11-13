@@ -38,5 +38,8 @@
 	"files.autoSave": "off",
 	"markdownlint.config": {
 		"MD010": false
+	},
+	"[jade]": {
+		"files.trimTrailingWhitespace": false
 	}
 }
