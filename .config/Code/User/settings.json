@@ -36,6 +36,7 @@
 	"window.zoomLevel": 0,
 	"workbench.iconTheme": "material-icon-theme",
 	"files.autoSave": "off",
+	"vsicons.dontShowNewVersionMessage": true,
 	"markdownlint.config": {
 		"MD010": false
 	},
