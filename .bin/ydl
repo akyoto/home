@@ -1,0 +1,7 @@
+#!/bin/bash
+
+youtube-dl -f bestvideo[ext=webm] -o /tmp/video.webm $1
+youtube-dl -f bestaudio[ext=webm] -o /tmp/audio.webm $1
+ffmpeg -i /tmp/video.webm -i /tmp/audio.webm -c:v copy -c:a copy -strict experimental -map 0:v:0 -map 1:a:0 $1.webm
+rm /tmp/video.webm
+rm /tmp/audio.webm
