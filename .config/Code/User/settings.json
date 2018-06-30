@@ -33,10 +33,10 @@
 	"languageStylus.useSeparator": false,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
-	"window.zoomLevel": 0,
+	"window.zoomLevel": 1,
 	"workbench.iconTheme": "material-icon-theme",
 	"files.autoSave": "off",
-	"vsicons.dontShowNewVersionMessage": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 	"markdownlint.config": {
 		"MD010": false
 	},
