@@ -21,6 +21,11 @@ if [ -d "$HOME/.bin" ] ; then
     PATH="$HOME/.bin:$PATH"
 fi
 
+# set PATH so it includes snap bin if it exists
+if [ -d "/snap/bin" ] ; then
+    PATH="/snap/bin:$PATH"
+fi
+
 # Go
 if [ -d "$HOME/workspace" ] ; then
 	export GOPATH=$HOME/workspace
