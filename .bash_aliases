@@ -18,7 +18,6 @@ alias bench='go test -run=^$ -bench'
 
 # node
 alias n='node'
-alias ns='node --use_strict'
 
 # npm
 alias nr='npm run'
@@ -44,9 +43,6 @@ alias loc='git ls-files | grep "\.go$" | xargs cloc'
 # sugoi
 alias s='sugoi'
 alias sp='sugoi push'
-
-# aerospike
-alias db='sudo service aerospike'
 
 # p PROJECTNAME
 goProject() { cd $(readlink -f "$HOME/projects/$@"); }
