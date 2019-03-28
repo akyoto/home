@@ -10,7 +10,7 @@
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
 	"gitProjectManager.baseProjectsFolders": [
-		"/home/eduard/workspace/src/github.com"
+		"/home/eduard/projects"
 	],
 	"gitProjectManager.ignoredFolders": [
 		"node_modules",

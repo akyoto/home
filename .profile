@@ -22,7 +22,7 @@ if [ -d "/snap/bin" ] ; then
 fi
 
 # Go
-if [ -d "$HOME/workspace" ] ; then
-	export GOPATH=$HOME/workspace
+if [ -d "$HOME/go" ] ; then
+	export GOPATH=$HOME/go
 	export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin/
 fi
