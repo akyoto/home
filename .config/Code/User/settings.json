@@ -6,6 +6,15 @@
 	"editor.insertSpaces": false,
 	"editor.scrollBeyondLastLine": false,
 	"editor.wordWrap": "off",
+	"go.alternateTools": {
+		"go-langserver": "gopls",
+	},
+	"go.languageServerExperimentalFeatures": {
+		"format": true,
+		"autoComplete": true
+	},
+	"go.useLanguageServer": true,
+	"go.formatTool": "goimports",
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
