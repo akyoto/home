@@ -26,3 +26,8 @@ if [ -d "$HOME/go" ] ; then
 	export GOPATH=$HOME/go
 	export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin/
 fi
+
+# Anime Notifier
+if [ -d "$HOME/projects/animenotifier/notify.moe" ] ; then
+	export ARN_ROOT=$HOME/projects/animenotifier/notify.moe
+fi

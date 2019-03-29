@@ -15,6 +15,7 @@
 	},
 	"go.useLanguageServer": true,
 	"go.formatTool": "goimports",
+	"terminal.integrated.shellArgs.linux": ["-l"],
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
