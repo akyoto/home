@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d -name '.git' | while read dir ; do sh -c "cd $dir/../ && echo -e \"${dir//\.git/}\" && git status -s" ; done
