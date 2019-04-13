@@ -16,15 +16,19 @@ if [ -d "$HOME/.bin" ] ; then
     export PATH="$HOME/.bin:$PATH"
 fi
 
+# Include ~/.local/bin in PATH
+if [ -d "$HOME/.local/bin" ] ; then
+    export PATH="$HOME/.local/bin:$PATH"
+fi
+
 # set PATH so it includes snap bin if it exists
 if [ -d "/snap/bin" ] ; then
     export PATH="/snap/bin:$PATH"
 fi
 
 # Go
-if [ -d "$HOME/go" ] ; then
-	export GOPATH=$HOME/go
-	export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin/
+if [ -d "/usr/local/go" ] ; then
+	export PATH=$PATH:/usr/local/go/bin
 fi
 
 # Anime Notifier

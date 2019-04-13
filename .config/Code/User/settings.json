@@ -1,20 +1,11 @@
 // Place your settings in this file to overwrite the default settings
 {
 	"editor.fontFamily": "'Ubuntu Mono'",
-	"editor.fontSize": 16,
+	"editor.fontSize": 14,
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.scrollBeyondLastLine": false,
 	"editor.wordWrap": "off",
-	"go.alternateTools": {
-		"go-langserver": "gopls",
-	},
-	"go.languageServerExperimentalFeatures": {
-		"format": true,
-		"autoComplete": true
-	},
-	"go.useLanguageServer": true,
-	"go.formatTool": "goimports",
 	"terminal.integrated.shellArgs.linux": ["-l"],
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
