@@ -26,9 +26,14 @@ if [ -d "/snap/bin" ] ; then
     export PATH="/snap/bin:$PATH"
 fi
 
-# Go
+# Go compiler
 if [ -d "/usr/local/go" ] ; then
 	export PATH=$PATH:/usr/local/go/bin
+fi
+
+# Go installed binaries
+if [ -d "$HOME/go/bin" ] ; then
+	export PATH="$HOME/go/bin:$PATH"
 fi
 
 # Anime Notifier
