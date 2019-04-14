@@ -1,14 +1,12 @@
 #!/bin/bash
 
 # Navigation
-alias c='cd'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 # Go
-alias g='go'
 alias gb='go build'
 alias gg='go get'
 alias gt='go test'
@@ -40,6 +38,20 @@ alias gm='git commit'
 alias gr='git recent'
 alias loc='git ls-files | grep "\.go$" | xargs cloc'
 
+# ls
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+
+# Colors for ls and grep
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
 # sugoi
 alias s='sugoi'
 alias sp='sugoi push'
@@ -57,6 +69,5 @@ mkdirAndEnter() { mkdir $@; cd $@; }
 alias d=mkdirAndEnter
 
 # editor
-export EDITOR=vim
-openEditor() { test -w $@ && vim $@ || sudo vim $@; }
+openEditor() { test -w $@ && $EDITOR $@ || sudo $EDITOR $@; }
 alias e=openEditor
