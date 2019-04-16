@@ -6,7 +6,15 @@
 	"editor.insertSpaces": false,
 	"editor.scrollBeyondLastLine": false,
 	"editor.wordWrap": "off",
-	"terminal.integrated.shellArgs.linux": ["-l"],
+	"extensions.autoUpdate": true,
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 1,
+	"workbench.iconTheme": "material-icon-theme",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"files.autoSave": "off",
+	"languageStylus.useSeparator": false,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
 	"gitProjectManager.maxDepthRecursion": 0,
 	"gitProjectManager.checkRemoteOrigin": false,
 	"gitProjectManager.openInNewWindow": false,
@@ -30,18 +38,10 @@
 		"*.pixy": "jade",
 		"*.scarlet": "stylus"
 	},
-	"extensions.autoUpdate": true,
-	"languageStylus.useSeparator": false,
-	"git.confirmSync": false,
-	"git.enableSmartCommit": true,
-	"window.zoomLevel": 1,
-	"workbench.iconTheme": "material-icon-theme",
-	"files.autoSave": "off",
-	"typescript.updateImportsOnFileMove.enabled": "always",
 	"markdownlint.config": {
 		"MD010": false
 	},
 	"[jade]": {
 		"files.trimTrailingWhitespace": false
-	}
+	},
 }
