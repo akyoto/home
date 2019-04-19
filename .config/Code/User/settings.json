@@ -13,6 +13,7 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"files.autoSave": "off",
 	"languageStylus.useSeparator": false,
+	"go.lintTool": "revive",
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"gitProjectManager.maxDepthRecursion": 0,
