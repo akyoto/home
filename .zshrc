@@ -28,9 +28,6 @@ source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# Remove aliases
-unalias -m "*"
-
 # Pure theme prompt
 autoload -U promptinit; promptinit
 PURE_PROMPT_SYMBOL=λ
@@ -38,6 +35,9 @@ prompt pure
 
 # Editor
 export EDITOR="vim"
+
+# Remove aliases
+unalias -m "*"
 
 # ls
 alias l='ls -CF'
@@ -68,3 +68,9 @@ alias gc='git clone'
 # Go and Git
 alias goloc='git ls-files | grep "\.go$" | xargs wc -l | sort -rn'
 
+# Docker
+alias d='docker'
+alias di='docker images'
+alias dc='docker-compose'
+alias dcb='docker-compose build'
+alias dcr='docker-compose run'
