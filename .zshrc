@@ -58,6 +58,7 @@ alias gt='go test'
 alias gi='go install'
 alias ggu='go get -u'
 alias bench='go test -run=^$ -bench'
+alias outdated='go list -u -m -json all | go-mod-outdated -update -direct'
 
 # Git
 alias gs='git status'
