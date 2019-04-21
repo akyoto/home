@@ -23,6 +23,10 @@ plugins=(
 	golang
 )
 
+# Language
+export LANG="en_US.utf8"
+export LC_ALL=$LANG
+
 # Includes
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
