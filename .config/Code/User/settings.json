@@ -14,6 +14,7 @@
 	"files.autoSave": "off",
 	"languageStylus.useSeparator": false,
 	"go.lintTool": "revive",
+	"go.useLanguageServer": true,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"gitProjectManager.maxDepthRecursion": 0,
@@ -44,5 +45,5 @@
 	},
 	"[jade]": {
 		"files.trimTrailingWhitespace": false
-	},
+	}
 }
