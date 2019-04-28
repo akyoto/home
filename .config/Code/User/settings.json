@@ -13,7 +13,10 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"files.autoSave": "off",
 	"languageStylus.useSeparator": false,
-	"go.lintTool": "revive",
+	"go.lintTool":"golangci-lint",
+	"go.lintFlags": [
+		"--fast"
+	],
 	"go.useLanguageServer": true,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
