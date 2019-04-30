@@ -17,7 +17,7 @@
 	"go.lintFlags": [
 		"--fast"
 	],
-	"go.useLanguageServer": true,
+	"go.formatTool": "goimports",
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"gitProjectManager.maxDepthRecursion": 0,
