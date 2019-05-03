@@ -1,1 +1,1 @@
-export PATH=/usr/bin:$PATH
+export PATH=/home/eduard/apps/go/bin:/usr/bin:$PATH
