@@ -49,5 +49,18 @@
 	},
 	"[jade]": {
 		"files.trimTrailingWhitespace": false
-	}
+	},
+	"cSpell.userWords": [
+		"Akyoto",
+		"aero",
+		"aerogo",
+		"eduardurbach",
+		"graphql"
+	],
+	"cSpell.ignoreWords": [
+		"ckvx",
+		"soulcramer",
+		"vjok",
+		"stretchr"
+	]
 }
