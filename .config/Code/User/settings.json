@@ -55,7 +55,9 @@
 		"aero",
 		"aerogo",
 		"eduardurbach",
-		"graphql"
+		"graphql",
+		"kitsu",
+		"shortid"
 	],
 	"cSpell.ignoreWords": [
 		"ckvx",
