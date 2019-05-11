@@ -57,7 +57,9 @@
 		"eduardurbach",
 		"graphql",
 		"kitsu",
-		"shortid"
+		"shortid",
+		"stringutils",
+		"xxhash"
 	],
 	"cSpell.ignoreWords": [
 		"ckvx",
