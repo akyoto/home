@@ -1,6 +1,7 @@
 [user]
 	email = e.urbach@gmail.com
 	name = Eduard Urbach
+	signingkey = C874F672B1AF20C0
 [push]
 	default = simple
 [core]
@@ -10,3 +11,7 @@
 	insteadOf = https://github.com/
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true

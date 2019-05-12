@@ -27,6 +27,12 @@ plugins=(
 export LANG="en_US.utf8"
 export LC_ALL=$LANG
 
+# GPG
+if (( $+commands[gpg-connect-agent] )); then
+	export GPG_TTY=$(tty)
+	gpg-connect-agent updatestartuptty /bye >/dev/null
+fi
+
 # Includes
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
