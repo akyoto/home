@@ -33,10 +33,13 @@ if (( $+commands[gpg-connect-agent] )); then
 	gpg-connect-agent updatestartuptty /bye >/dev/null
 fi
 
-# Includes
+# ZSH plugins
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Allow Gnome Terminal to set the same current directory to a new tab
+source /etc/profile.d/vte.sh
 
 # Pure theme prompt
 autoload -U promptinit; promptinit

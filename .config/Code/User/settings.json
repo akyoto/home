@@ -54,19 +54,30 @@
 		"Akyoto",
 		"aero",
 		"aerogo",
+		"codecov",
+		"coverprofile",
 		"eduard",
 		"eduardurbach",
+		"golangci",
+		"gopath",
+		"goquery",
 		"graphql",
 		"kitsu",
+		"myanimelist",
+		"rewatching",
 		"shortid",
 		"stringutils",
+		"tbody",
 		"urbach",
+		"webhook",
 		"xxhash"
 	],
 	"cSpell.ignoreWords": [
 		"ckvx",
 		"soulcramer",
 		"vjok",
-		"stretchr"
+		"stretchr",
+		"dupl",
+		"appleboy"
 	]
 }
