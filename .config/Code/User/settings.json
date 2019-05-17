@@ -35,7 +35,6 @@
 		"node_modules": true,
 		"vendor": true,
 		".editorconfig": true,
-		".gitignore": true,
 		"**/*.js": {
 			"when": "$(basename).ts"
 		}
@@ -118,5 +117,5 @@
 		"dupl",
 		"appleboy"
 	],
-	"workbench.activityBar.visible": false
+	"workbench.activityBar.visible": true
 }
