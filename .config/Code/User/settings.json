@@ -65,6 +65,7 @@
 		"eduard",
 		"eduardurbach",
 		"esnext",
+		"etag",
 		"ffxiv",
 		"gitignore",
 		"gmail",
@@ -113,5 +114,6 @@
 		"stretchr",
 		"dupl",
 		"appleboy"
-	]
+	],
+	"workbench.activityBar.visible": false
 }
