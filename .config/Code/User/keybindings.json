@@ -3,5 +3,29 @@
 	{
 		"key": "ctrl+[Comma]",
 		"command": "workbench.action.openSettingsJson"
+	},
+	{
+		"key": "numpad_divide",
+		"command": "workbench.view.explorer"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "-workbench.view.explorer"
+	},
+	{
+		"key": "numpad_multiply",
+		"command": "workbench.view.scm"
+	},
+	{
+		"key": "ctrl+shift+g",
+		"command": "-workbench.view.scm"
+	},
+	{
+		"key": "numpad_subtract",
+		"command": "workbench.action.findInFiles"
+	},
+	{
+		"key": "ctrl+shift+f",
+		"command": "-workbench.action.findInFiles"
 	}
 ]
