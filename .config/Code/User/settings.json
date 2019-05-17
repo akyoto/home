@@ -84,6 +84,7 @@
 		"markdownlint",
 		"memstore",
 		"mgit",
+		"mixins",
 		"myanimelist",
 		"nanostore",
 		"oauth",
