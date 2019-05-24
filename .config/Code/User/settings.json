@@ -19,6 +19,21 @@
 		"--fast"
 	],
 	"go.formatTool": "goimports",
+	"go.useLanguageServer": true,
+	"go.languageServerExperimentalFeatures": {
+		"diagnostics": true // for build and vet errors as you type
+	},
+	"[go]": {
+		"editor.snippetSuggestions": "none",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"gopls": {
+		"usePlaceholders": true // add parameter placeholders when completing a function
+	},
+	"files.eol": "\n", // formatting only supports LF line endings
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"gitProjectManager.maxDepthRecursion": 0,
@@ -55,6 +70,7 @@
 		"aerogo",
 		"anilist",
 		"animenotifier",
+		"animenotifierofficial",
 		"apng",
 		"autoimport",
 		"cidr",
@@ -68,13 +84,16 @@
 		"eduardurbach",
 		"esnext",
 		"etag",
+		"favicon",
 		"ffxiv",
+		"fung",
 		"gitignore",
 		"gmail",
 		"godoc",
 		"goimports",
 		"golangci",
 		"gopath",
+		"gopls",
 		"goquery",
 		"graphql",
 		"gzipped",
@@ -84,12 +103,15 @@
 		"jsonld",
 		"jspacker",
 		"julienschmidt",
+		"kanji",
 		"kitsu",
+		"konna",
 		"lato",
 		"macbook",
 		"markdownlint",
 		"memstore",
 		"mgit",
+		"minified",
 		"mixins",
 		"myanimelist",
 		"nagle",
