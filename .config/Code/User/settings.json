@@ -19,7 +19,7 @@
 		"--fast"
 	],
 	"go.formatTool": "goimports",
-	"go.useLanguageServer": true,
+	"go.useLanguageServer": false,
 	"go.languageServerExperimentalFeatures": {
 		"diagnostics": true // for build and vet errors as you type
 	},
@@ -163,5 +163,8 @@
 		"dupl",
 		"appleboy"
 	],
-	"workbench.activityBar.visible": true
+	"workbench.activityBar.visible": true,
+	"gitlens.advanced.messages": {
+		"suppressSupportGitLensNotification": true
+	}
 }
