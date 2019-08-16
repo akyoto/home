@@ -14,25 +14,11 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"files.autoSave": "off",
 	"languageStylus.useSeparator": false,
+	"go.formatTool": "goimports",
 	"go.lintTool":"golangci-lint",
 	"go.lintFlags": [
 		"--fast"
 	],
-	"go.formatTool": "goimports",
-	"go.useLanguageServer": false,
-	"go.languageServerExperimentalFeatures": {
-		"diagnostics": true // for build and vet errors as you type
-	},
-	"[go]": {
-		"editor.snippetSuggestions": "none",
-		"editor.formatOnSave": true,
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": true
-		}
-	},
-	"gopls": {
-		"usePlaceholders": true // add parameter placeholders when completing a function
-	},
 	"files.eol": "\n", // formatting only supports LF line endings
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
@@ -167,5 +153,6 @@
 	"workbench.activityBar.visible": true,
 	"gitlens.advanced.messages": {
 		"suppressSupportGitLensNotification": true
-	}
+	},
+	"sync.gist": "b3a4bbb5fdc40860f13baa9dbd1e9ee9"
 }
