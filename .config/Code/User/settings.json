@@ -35,7 +35,6 @@
 	"files.exclude": {
 		"node_modules": true,
 		"vendor": true,
-		".editorconfig": true,
 		"**/*.js": {
 			"when": "$(basename).ts"
 		}
