@@ -14,6 +14,7 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"files.autoSave": "off",
 	"languageStylus.useSeparator": false,
+	"go.useLanguageServer": true,
 	"go.formatTool": "goimports",
 	"go.lintTool":"golangci-lint",
 	"go.lintFlags": [
