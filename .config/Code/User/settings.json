@@ -20,6 +20,7 @@
 	"go.lintFlags": [
 		"--fast"
 	],
+	"rust.clippy_preference": "on",
 	"files.eol": "\n", // formatting only supports LF line endings
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
